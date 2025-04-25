@@ -1,0 +1,16 @@
+names:
+- bp
+- gluco
+- hba1c
+- spo2
+- ws
+nc: 5
+roboflow:
+  license: Private
+  project: medical_device_detection-dwbfc
+  url: https://app.roboflow.com/sais-vthte/medical_device_detection-dwbfc/1
+  version: 1
+  workspace: sais-vthte
+test: ../test/images
+train: ../train/images
+val: ../valid/images
